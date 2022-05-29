@@ -1,0 +1,18 @@
+{
+  "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint"],
+  "extends": [
+    "eslint:recommended",
+    "plugin:unicorn/recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:prettier/recommended"
+  ],
+  "rules": {
+    "sort-imports": ["warn", { "ignoreDeclarationSort": true }],
+    "unicorn/prevent-abbreviations": "off",
+    "@typescript-eslint/consistent-type-imports": "warn",
+    "@typescript-eslint/no-non-null-assertion": "off",
+    "prettier/prettier": "warn"
+  }
+}

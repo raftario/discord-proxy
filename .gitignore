@@ -1,0 +1,9 @@
+/dist/
+node_modules/
+.env
+config.json
+*.db
+*.db-journal
+
+.vscode
+.idea

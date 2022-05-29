@@ -1,0 +1,14 @@
+.eslintignore
+.eslintrc.json
+.gitignore
+.prettierrc.json
+
+/dist/
+node_modules/
+.env
+config.json
+*.db
+*.db-journal
+
+.vscode
+.idea
